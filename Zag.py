@@ -126,5 +126,4 @@ loop = LoopingCall(f=updating_writer, a=(context,))
 loop.start(time, now=False) # initially delay by time
 StartTcpServer(context, identity=identity, address=("192.168.1.135", 502)) #because port 502 is being used this program must be ran as sudo
 
-#Agilaire IP Address: 192.168.1.135 Port:502
-#Public IP Address 172.16.20.90 Port:502
+

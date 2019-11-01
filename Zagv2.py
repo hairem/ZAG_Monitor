@@ -63,6 +63,7 @@ def Config():
  PumpT = int(lines[4])
  tg = int(lines[1])
  sn= int(lines[2])
+ f.close()
  return(ChemT,PumpT,tg,sn)
 #---------------------------------------------------------------------------# 
 # define your Data and collect it from Sensors
